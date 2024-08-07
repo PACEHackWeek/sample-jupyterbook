@@ -1,11 +1,15 @@
-# Welcome to your Jupyter Book
+# Project Title and Introduction
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
 
-Check out the content pages bundled with this sample book to see more.
+### Collaborators
 
-```{tableofcontents}
-```
+
+| Name | Personal goals | Can help with | Role |
+| ------------- | ------------- | ------------- | ------------- |
+| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
+| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
+| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
+| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
+| ... | ... | ... | ... |
+| ... | ... | ... | ... |
