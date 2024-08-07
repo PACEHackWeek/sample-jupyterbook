@@ -1,6 +1,10 @@
 # Project Title and Introduction
 
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
+Provide a brief introduction.
+
+* Edit `_config.yml` with your title, authors, repo name etc.
+* Add new notebooks in the `notebooks` folder
+* Add those notebooks into `_toc.yml`
 
 ### Collaborators
 
