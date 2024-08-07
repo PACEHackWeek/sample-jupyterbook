@@ -1,30 +1,35 @@
-# book
+# sample jupyterbook
 
 Sample template for a Jupyter Book
 
 ## Usage
 
-### Building the book
+If you'd like to use this template for your own book:
 
-If you'd like to develop and/or build the book book, you should:
+### Create a repo copy of the template
 
-1. Clone this repository
-2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `book/` directory
-4. Run `jupyter-book clean book/` to remove any existing builds
-5. Run `jupyter-book build book/`
+1. Create your own repository on GitHub. Go here https://github.com/PACEHackWeek/sample-jupyterbook-repository and click on the green "Template" button in the top right. This will create a copy of the template with all the files in your GitHub account (or org).
+2. In your repo, go to Settings (cog in the top nav) and click on Actions > General in the sidebar. Make sure "Allow all actions and reusable workflows" is checked.
+3. Go to Settings and click on Pages. Under Build and deployment > Source, select "GitHub Actions". You don't need to change any other settings.
+4. Go to the "About" section on your repo in the right bar and click the 'cog'. You will see "Use your GitHub Pages website" and a checkbox. Check that box. If it is checked already, then uncheck and re-check it. This will add the url to your book.
+
+### Clone your copy of the template
+
+1. Clone your repository. `git clone https://github.com/<your account>/<your reponame>`
+2. If you are not on the CryoCloud hub run: `pip install -r requirements.txt`
+3. Edit the books source files located in the `book/` directory
+4. Push the changes up to GitHub.
+5. On GitHub, click the Actions tab to watch the book build. When the workflow is done, you can click the url to see your book.
+
+If the Action does not run, then you will need to debug. Click on the Action that did not build and click on the part that had a problem.
+
+### Building your book locally
+
+1. Open a terminal.
+2. Run `jupyter-book clean book/` to remove any existing builds
+3. Run `jupyter-book build book/`
 
 A fully-rendered HTML version of the book will be built in `book/_build/html/`.
-
-### Hosting the book
-
-Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.html) to discover options for deploying a book online using services such as GitHub, GitLab, or Netlify.
-
-For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
-
-## Contributors
-
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/PACEHackWeek/book/graphs/contributors).
 
 ## Credits
 
