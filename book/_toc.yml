@@ -7,3 +7,4 @@ chapters:
 - file: myst-markdown
 - file: notebooks/ipynb-notebook
 - file: notebooks/myst-notebook
+- file: notebooks/CHL_prediction_CNN.ipynb
