@@ -8,3 +8,4 @@ chapters:
 - file: notebooks/ipynb-notebook
 - file: notebooks/myst-notebook
 - file: notebooks/CHL_prediction_CNN.ipynb
+  title: My Title
